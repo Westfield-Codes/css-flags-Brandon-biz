@@ -14,18 +14,23 @@ a {
   border:1px solid black;
 }
 
-.vl {
-    border-left: 6px solid green;
-    height: 500px;
-  }
-  </style>
-  
-  <div class="vl"></div>
+.green {
+    background:green;
+}
 
+.white {
+    background:white;
+}
 .red {
     background:red;
 }
 
-.yellow {
-    background:white;
-}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+.row:after {
+    background: red;
+    display: table;
+  }
